@@ -2,12 +2,12 @@
   <NMessageProvider>
     <NLoadingBarProvider>
       <header>
-        <RouterLink to="/daily">YAPR</RouterLink>
+        <RouterLink to="/p/daily">YAPR</RouterLink>
         <nav>
-          <RouterLink to="/daily">Daily</RouterLink>
-          <RouterLink to="/weekly">Weekly</RouterLink>
-          <RouterLink to="/monthly">Monthly</RouterLink>
-          <RouterLink to="/rookie">Rookie</RouterLink>
+          <RouterLink to="/p/daily">Daily</RouterLink>
+          <RouterLink to="/p/weekly">Weekly</RouterLink>
+          <RouterLink to="/p/monthly">Monthly</RouterLink>
+          <RouterLink to="/p/rookie">Rookie</RouterLink>
         </nav>
         <OuterLink href="https://www.pixiv.net/ranking.php">Go To Pixiv</OuterLink>
       </header>

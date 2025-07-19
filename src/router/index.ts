@@ -5,7 +5,11 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/:mode',
+      path: '/',
+      redirect: '/p/daily',
+    },
+    {
+      path: '/p/:mode',
       name: 'home',
       component: HomeView,
       props: (route) => ({
