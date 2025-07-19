@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/p/:path*",
+      "destination": "https://www.pixiv.net/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
