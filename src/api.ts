@@ -22,7 +22,7 @@ export type RankingContent = {
 }
 
 export async function getRanking(mode: string, p?: number, date?: string): Promise<RankingResult> {
-  let url = `/p/ranking.php?format=json&content=illust&mode=${mode}`
+  let url = `/api/ranking.php?format=json&content=illust&mode=${mode}`
   if (p) {
     url += `&p=${p}`
   }

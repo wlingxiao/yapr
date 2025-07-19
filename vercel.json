@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/p/:path*",
+      "source": "/api/:path*",
       "destination": "https://www.pixiv.net/:path*"
     },
     {
